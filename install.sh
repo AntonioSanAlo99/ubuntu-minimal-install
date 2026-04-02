@@ -211,8 +211,8 @@ mmdebstrap \
     --components="${COMPONENTS}" \
     --aptopt='APT::Install-Recommends "0"' \
     --aptopt='APT::Install-Suggests "0"' \
-    --dpkgopt='--force-confdef' \
-    --dpkgopt='--force-confold' \
+    --dpkgopt='force-confdef' \
+    --dpkgopt='force-confold' \
     --include="${PACKAGES}" \
     "${SUITE}" \
     "${TARGET}" \
