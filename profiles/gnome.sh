@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PACKAGES="$PACKAGES,\
+PACKAGES="
 gnome-shell,gnome-session,gnome-settings-daemon,gnome-control-center,\
 gnome-terminal,nautilus,nautilus-admin,xdg-terminal-exec,\
 xdg-desktop-portal,xdg-desktop-portal-gnome,gdm3,\
