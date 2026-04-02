@@ -11,7 +11,7 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 
-chmod +x "${SCRIPT_DIR}/hooks/*" "${SCRIPT_DIR}/modules/*"
+chmod +x "${SCRIPT_DIR}/hooks/"*.sh "${SCRIPT_DIR}/modules/"*.sh
 
 # ── Detección de firmware ─────────────────────────────────────────────────────
 if [ -d /sys/firmware/efi ]; then
