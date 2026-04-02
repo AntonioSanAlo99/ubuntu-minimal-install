@@ -1,14 +1,12 @@
 # ubuntu-minimal-install
 
-Instalador modular y reproducible de Ubuntu basado en `mmdebstrap`.
-Inspirado en la filosofía de [glaucus linux](https://github.com/glaucuslinux/glaucus)
-y [archinstall](https://github.com/archlinux/archinstall).
+Instalador modular minimalista y reproducible de Ubuntu basado en `mmdebstrap`.
 
-Sin `ubiquity`. Sin `subiquity`. Sin `debconf` interactivo. Solo scripts POSIX sh auditables.
+Sin `ubiquity`. Sin `subiquity`. Sin `debconf` interactivo. Solo scripts POSIX shell auditables.
 
 ## Requisitos
 
-- `mmdebstrap`
+- `mmdebstrap`, `arch-install-scripts`, `ubuntu-keyring`
 - `parted`, `wipefs`, `mkfs.fat`, `mkfs.ext4`
 - Partición destino montable en `/mnt/ubuntu` (configurable en `config.sh`)
 
