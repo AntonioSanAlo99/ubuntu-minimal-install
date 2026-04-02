@@ -1,7 +1,5 @@
 #!/bin/sh
 
-. "$(dirname "$0")/minimal.sh"
-
 PACKAGES="$PACKAGES,\
 gnome-shell,gnome-session,gnome-settings-daemon,gnome-control-center,\
 gnome-terminal,nautilus,nautilus-admin,xdg-terminal-exec,\
