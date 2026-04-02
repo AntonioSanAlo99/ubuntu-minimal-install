@@ -1,7 +1,12 @@
 #!/bin/sh
 
 PACKAGES="
-gnome-shell,gnome-session,gnome-settings-daemon,gnome-control-center,\
+locales,console-setup,console-data,keyboard-configuration,\
+gettext,chrony,libpam-systemd,bash-completion,dbus-user-session,\
+linux-image-generic,linux-headers-generic,dracut,zstd,xz-utils,\
+wget,nano,efibootmgr,os-prober,ntfs-3g,network-manager,\
+grub-pc,sudo-rs,kmod,iproute2,ca-certificates,gnome-shell,\
+gnome-session,gnome-settings-daemon,gnome-control-center,\
 gnome-terminal,nautilus,nautilus-admin,xdg-terminal-exec,\
 xdg-desktop-portal,xdg-desktop-portal-gnome,gdm3,\
 plymouth,plymouth-theme-spinner,bolt,at-spi2-core,rtkit,polkitd,\
