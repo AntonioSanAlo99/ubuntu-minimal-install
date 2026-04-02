@@ -38,9 +38,9 @@ done
 
 if [ -n "$_missing" ]; then
     echo ""
-    echo "Instala las dependencias con:"
-    echo "  apt install mmdebstrap ubuntu-keyring parted arch-install-scripts \
-    dosfstools e2fsprogs efibootmgr python3  ${GRUB_PKG}"
+    echo "Instalando las dependencias"
+    apt install mmdebstrap ubuntu-keyring parted arch-install-scripts \
+    dosfstools e2fsprogs efibootmgr python3  ${GRUB_PKG}
     exit 1
 fi
 echo "  OK"
